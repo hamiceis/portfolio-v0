@@ -1,63 +1,43 @@
-# Portfolio - Front-End Developer
+# Portfolio Hub
 
-This is a modern portfolio website built for a Front-End Developer, showcasing projects, skills, and professional experience. It features a clean, responsive design using the latest React ecosystem technologies.
+Este é um portfólio simples desenvolvido para exibir meus projetos e as tecnologias que utilizo. O objetivo é centralizar meus trabalhos e demonstrações de código em uma interface limpa e moderna.
 
-## 🚀 Technologies Used
+## 🚀 Tecnologias
 
-This project is built with a modern stack focusing on performance and developer experience:
+O projeto foi construído utilizando as seguintes tecnologias principais:
 
-- **[Vite](https://vitejs.dev/)**: Next Generation Frontend Tooling
-- **[React](https://react.dev/)**: The library for web and native user interfaces
-- **[TypeScript](https://www.typescriptlang.org/)**: JavaScript with syntax for types
-- **[Tailwind CSS](https://tailwindcss.com/)**: Rapidly build modern websites without ever leaving your HTML
-- **[shadcn/ui](https://ui.shadcn.com/)**: Beautifully designed components accessible and customizable
-- **[Lucide React](https://lucide.dev/)**: Beautiful & consistent icons
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Vite**
+- **Shadcn/UI** (para componentes de interface)
 
-## 🛠️ Getting Started
+## 📦 Como rodar o projeto
 
-Follow these steps to set up the project locally on your machine.
-
-### Prerequisites
-
-- Node.js & npm installed (Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
-
-### Installation
-
-1. **Clone the repository**
+1. Clone o repositório:
 
    ```bash
-   git clone <YOUR_GIT_URL>
-   cd dev-portfolio-hub
+   git clone https://github.com/hamiceis/portfolio-v0.git
    ```
 
-2. **Install dependencies**
+2. Instale as dependências:
 
    ```bash
    npm install
    ```
 
-3. **Start the development server**
+3. Inicie o servidor de desenvolvimento:
 
    ```bash
    npm run dev
    ```
 
-   The application will be available at `http://localhost:8080`.
+4. Acesse em seu navegador:
+   `http://localhost:8080` (ou a porta indicada no terminal)
 
-## 📦 Building for Production
+## 🛠️ Funcionalidades
 
-To create a production-ready build:
-
-```bash
-npm run build
-```
-
-To preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
+- Listagem de projetos com imagens e descrições.
+- Links para demonstração online ou repositórios.
+- Seção de Tech Stacks.
+- Layout responsivo e design moderno.
