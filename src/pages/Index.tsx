@@ -6,17 +6,19 @@ const Index = () => {
   // 12 projetos com slugs padronizados
   const projects = [
     {
-      slug: "doce-delicia", 
+      slug: "doce-delicia",
       title: "Doce Delícia",
       href: "https://doce-delicia.vercel.app/",
-      description: "Cardápio de Doce Delícia, bolos sobre encomenda e pedidos online",
+      description:
+        "Cardápio de Doce Delícia, bolos sobre encomenda e pedidos online",
       technologies: ["React", "TypeScript", "Tailwind"],
-      image: "https://github.com/hamiceis/doce-delicia-cardapio/blob/main/assets/pic-project.jpg?raw=true",
+      image:
+        "https://github.com/hamiceis/doce-delicia-cardapio/blob/main/assets/pic-project.jpg?raw=true",
     },
     {
       slug: "dashboard",
       title: "Dashboard simple",
-      href:"https://github.com/hamiceis/Dashboard-NextJS", 
+      href: "https://github.com/hamiceis/Dashboard-NextJS",
       description: "Dashboard simple com gráficos e informações com shadcn-ui",
       technologies: ["Next.js", "React", "Tailwind", "Shadcn-ui"],
       image: "./assets/preview2.jpg",
@@ -27,7 +29,8 @@ const Index = () => {
       href: "https://personal-trainer-puce-delta.vercel.app/",
       description: "Landing page de um personal trainer de alta conversão",
       technologies: ["React", "TailwindCSS"],
-      image: "https://github.com/hamiceis/personal-trainer-landingpage/blob/main/assets/preview.jpg?raw=true",
+      image:
+        "https://github.com/hamiceis/personal-trainer-landingpage/blob/main/assets/preview.jpg?raw=true",
     },
     {
       slug: "plann-er",
@@ -37,65 +40,79 @@ const Index = () => {
       image: "./assets/preview1.jpg",
     },
     {
-      slug: "projeto-5",
-      title: "Projeto 5",
-      description: "Descrição breve do projeto destacando seu propósito e objetivos principais.",
-      technologies: ["React", "Firebase", "Material-UI"],
-      image: "/placeholder.svg",
+      slug: "pizza-do-gordo",
+      title: "Pizza do gordo",
+      description: "Página de cardápio de uma pizzaria com pedidos online",
+      technologies: [
+        "React",
+        "TailwindCSS",
+        "Shadcn-ui",
+        "Tanstack-router",
+        "Zustand",
+      ],
+      href: "https://pizza-gordo.vercel.app/",
+      image: "./assets/preview3.jpg",
     },
     {
       slug: "projeto-6",
       title: "Projeto 6",
-      description: "Descrição breve do projeto destacando seu propósito e objetivos principais.",
+      description:
+        "Descrição breve do projeto destacando seu propósito e objetivos principais.",
       technologies: ["Next.js", "Prisma", "PostgreSQL"],
       image: "/placeholder.svg",
     },
     {
       slug: "projeto-7",
       title: "Projeto 7",
-      description: "Descrição breve do projeto destacando seu propósito e objetivos principais.",
+      description:
+        "Descrição breve do projeto destacando seu propósito e objetivos principais.",
       technologies: ["React", "Redux", "Styled Components"],
-      
+
       image: "/placeholder.svg",
     },
     {
       slug: "projeto-8",
       title: "Projeto 8",
-      description: "Descrição breve do projeto destacando seu propósito e objetivos principais.",
+      description:
+        "Descrição breve do projeto destacando seu propósito e objetivos principais.",
       technologies: ["Next.js", "GraphQL", "Apollo"],
-      
+
       image: "/placeholder.svg",
     },
     {
       slug: "projeto-9",
       title: "Projeto 9",
-      description: "Descrição breve do projeto destacando seu propósito e objetivos principais.",
+      description:
+        "Descrição breve do projeto destacando seu propósito e objetivos principais.",
       technologies: ["React", "Framer Motion", "Tailwind"],
-      
+
       image: "/placeholder.svg",
     },
     {
       slug: "projeto-10",
       title: "Projeto 10",
-      description: "Descrição breve do projeto destacando seu propósito e objetivos principais.",
+      description:
+        "Descrição breve do projeto destacando seu propósito e objetivos principais.",
       technologies: ["Next.js", "TypeScript", "Supabase"],
-      
+
       image: "/placeholder.svg",
     },
     {
       slug: "projeto-11",
       title: "Projeto 11",
-      description: "Descrição breve do projeto destacando seu propósito e objetivos principais.",
+      description:
+        "Descrição breve do projeto destacando seu propósito e objetivos principais.",
       technologies: ["React", "Three.js", "WebGL"],
-      
+
       image: "/placeholder.svg",
     },
     {
       slug: "projeto-12",
       title: "Projeto 12",
-      description: "Descrição breve do projeto destacando seu propósito e objetivos principais.",
+      description:
+        "Descrição breve do projeto destacando seu propósito e objetivos principais.",
       technologies: ["Next.js", "Vercel", "Tailwind"],
-      
+
       image: "/placeholder.svg",
     },
   ];
@@ -136,7 +153,9 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border py-8 px-4">
         <div className="container mx-auto max-w-7xl text-center text-muted-foreground">
-          <p className="font-body">© 2026 Portfolio. Desenvolvido com React e Tailwind CSS.</p>
+          <p className="font-body">
+            © 2026 Portfolio. Desenvolvido com React e Tailwind CSS.
+          </p>
         </div>
       </footer>
     </div>
