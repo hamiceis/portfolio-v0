@@ -54,12 +54,13 @@ const Index = () => {
       image: "./assets/preview3.jpg",
     },
     {
-      slug: "projeto-6",
-      title: "Projeto 6",
+      slug: "psico-serenity",
+      title: "PsicoSerenity",
       description:
-        "Descrição breve do projeto destacando seu propósito e objetivos principais.",
-      technologies: ["Next.js", "Prisma", "PostgreSQL"],
-      image: "/placeholder.svg",
+        "Landing page de um psicólogo com funcionalidade de IA",
+      technologies: ["React19", "TailwindCSS", "Radix-ui", "Framer-motion", "Google GenAI"],
+      image: "https://github.com/hamiceis/psico-serenity/blob/main/assets/preview.jpg?raw=true",
+      href: "https://psico-serenity.vercel.app/",
     },
     {
       slug: "projeto-7",
