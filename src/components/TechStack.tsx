@@ -1,11 +1,4 @@
-import {
-  Code2,
-  Blocks,
-  FileType2,
-  Palette,
-  Component,
-  Network,
-} from "lucide-react";
+import { TECHNOLOGIES } from "@/data/constants";
 
 interface TechCardProps {
   icon: React.ReactNode;
@@ -38,45 +31,6 @@ const TechCard = ({ icon, name, description }: TechCardProps) => {
 };
 
 const TechStack = () => {
-  const technologies = [
-    {
-      name: "React",
-      icon: <Code2 className="w-8 h-8" />,
-      description:
-        "Uso React para construir interfaces rápidas, modulares e escaláveis. Priorizo componentes limpos, previsíveis e de fácil manutenção — com foco em performance, hooks, padrões de composição e controle eficiente de estado.",
-    },
-    {
-      name: "Next.js",
-      icon: <Blocks className="w-8 h-8" />,
-      description:
-        "Next.js é o que utilizo quando o projeto exige mais estrutura e otimização: SSR/SSG, roteamento organizado, imagens otimizadas e APIs internas. O objetivo é entregar aplicações mais rápidas, leves e melhores para SEO.",
-    },
-    {
-      name: "TypeScript",
-      icon: <FileType2 className="w-8 h-8" />,
-      description:
-        "TypeScript é minha base de segurança técnica. Uso tipagem para reduzir erros, aumentar legibilidade e facilitar manutenção. Modelagem de tipos, interfaces e props tipadas fazem parte do meu fluxo natural de desenvolvimento.",
-    },
-    {
-      name: "TailwindCSS",
-      icon: <Palette className="w-8 h-8" />,
-      description:
-        "Com Tailwind, construo interfaces modernas, responsivas e consistentes com velocidade. Cada detalhe visual é controlado com precisão, mantendo estética limpa sem acúmulo desnecessário de CSS manual.",
-    },
-    {
-      name: "shadcn/ui",
-      icon: <Component className="w-8 h-8" />,
-      description:
-        "Utilizo shadcn/ui para criar componentes profissionais, acessíveis e visualmente sólidos. Personalizo a UI mantendo consistência, performance e um acabamento elegante — sem reescrever tudo do zero.",
-    },
-    {
-      name: "TanStack Router",
-      icon: <Network className="w-8 h-8" />,
-      description:
-        "TanStack Router é a minha escolha para gerenciamento de rotas complexas em React. Oferece segurança de tipos (Type-safe) ponta a ponta, carregamento paralelo de dados e uma experiência de desenvolvedor superior para aplicações robustas.",
-    },
-  ];
-
   return (
     <section className="py-20 px-4 relative overflow-hidden">
       {/* Background Effects */}
@@ -95,7 +49,7 @@ const TechStack = () => {
 
         {/* Tech Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {technologies.map((tech, index) => (
+          {TECHNOLOGIES.map((tech, index) => (
             <div
               key={tech.name}
               className="animate-fade-in"
